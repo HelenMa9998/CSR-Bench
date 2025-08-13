@@ -1,0 +1,26 @@
+{
+  "type": "docker",
+  "image_registry": "ghcr.io",
+  "image": "nenus-ai/pytorch-cifar_image:pytorch-cifar_v1",
+  "build_type": "image",
+  "meta_info": {
+    "name": "Deep Residual Learning for Image Recognition",
+    "description": "Deep Residual Learning for Image Recognition",
+    "full_packages": [],
+    "python_version": "unknown",
+    "cuda_version": null,
+    "packages": [],
+    "category": "Auto",
+    "tools": [
+      "Python"
+    ],
+    "os": "Ubuntu 22.04",
+    "node_version": null,
+    "runtime_extra_deps": "",
+    "repository_url": "https://github.com/kuangliu/pytorch-cifar",
+    "has_original_dockerfile": false,
+    "analysis_timestamp": "2025-08-06T04:15:00.893210",
+    "dependency_file": "",
+    "package_count": 0
+  }
+}
