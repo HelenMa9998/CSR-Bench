@@ -771,7 +771,7 @@ if __name__ == "__main__":
         args = parse_arguments()
         patch_run_evaluation()
 
-        with open("/home/ubuntu/oais_backup/evaluation/benchmarks/CSR-Bench/data/meta/bad_case.json") as f:
+        with open("evaluation/benchmarks/CSR-Bench/data/meta/CSRBench100_commit_ids.json") as f:
             meta_data = json.load(f)
         rows = [
             {"repo_url": url, "commit": cid[0], "branch": cid[1], "instance_id": f"{url}@{cid[0]}"}
